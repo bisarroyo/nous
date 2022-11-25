@@ -1,8 +1,95 @@
-import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer-container'>
+      <div className='flex-fluid'>
+        <div className='footer-item'>
+          <ul>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+        <div className='footer-item'>
+          <ul>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+        <div className='footer-item'>
+          <ul>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to='/'
+                className='footer-link'
+              >
+                Nous
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   )
 }
 

@@ -11,9 +11,16 @@
 
 // components
 @import
+  './components/boxes',
+  './components/footer',
+  './components/hero',
+  './components/info',
   './components/loader',
+  './components/modal',
   './components/navbar',
-  './components/titles';
+  './components/process',
+  './components/slider',
+  './components/testimonials';
 
 *{
   font-family: 'Catamaran', sans-serif;

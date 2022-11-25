@@ -25,3 +25,31 @@
     }
   }
 }
+
+// titles size
+@each $name, $size in $titles {
+  #{$name} {
+    @if $name == h2 {
+      padding-bottom: 30px;
+    }
+    font-size: $size;
+    line-height: $size;
+  }
+};
+
+
+@each $name, $size in $text {
+  #{$name} {
+    font-size: $size;
+    line-height: 2.5rem;
+  }
+};
+
+// width sizing
+@each $name, $size in $sizing {
+  .#{$name} {
+    width: $size;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+};

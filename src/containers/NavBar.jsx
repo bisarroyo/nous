@@ -23,7 +23,7 @@ export const NavBar = () => {
                 className={({ isActive }) => isActive ? 'nav-links active' : 'nav-links'}
                 onClick={handleClick}
               >
-                Home
+                Nous
               </NavLink>
             </li>
             <li className='nav-item'>
@@ -32,7 +32,7 @@ export const NavBar = () => {
                 className={({ isActive }) => isActive ? 'nav-links active' : 'nav-links'}
                 onClick={handleClick}
               >
-                About
+                Servicios
               </NavLink>
             </li>
             <li className='nav-item'>
@@ -41,7 +41,7 @@ export const NavBar = () => {
                 className={({ isActive }) => isActive ? 'nav-links active' : 'nav-links'}
                 onClick={handleClick}
               >
-                Blog
+                Portafolio
               </NavLink>
             </li>
             <li className='nav-item'>
@@ -50,7 +50,7 @@ export const NavBar = () => {
                 className={({ isActive }) => isActive ? 'nav-links active' : 'nav-links'}
                 onClick={handleClick}
               >
-                Contact Us
+                Contacto
               </NavLink>
             </li>
           </ul>

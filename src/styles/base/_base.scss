@@ -13,7 +13,7 @@ html {
 body {
     box-sizing: border-box;
     // background-color: $primary;
-    color: $light;
+    // color: $light;
 }
 
 body::-webkit-scrollbar {
@@ -56,4 +56,68 @@ body::-webkit-scrollbar-thumb {
     @include respond(lg){
         justify-content: center;
     }
+}
+
+//spacing
+
+.container {
+    margin: 50px 15%;
+}
+
+.container-fluid {
+    margin: 50px 1%;
+}
+
+// colors
+
+.primary {
+    color: $primary;;
+}
+
+.secondary {
+    color: $secondary;;
+}
+
+.third {
+    color: $third;;
+}
+
+// buttons
+
+%btn {
+ text-decoration: none;
+ font-size: 2rem;
+ font-weight: 600;
+ color: $primary;
+ padding: 0.8rem 1.5rem;
+ border-radius: 5px;
+ margin-right: 2rem;
+ transition: 0.5s all ease;
+ line-height: normal;
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: $primary;
+    color: $light;
+    border: 1px solid $primary;
+    &:hover {
+        background-color: darken($color: $primary, $amount: 10); 
+    }
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: transparent;
+    color: $secondary;
+    border: 1px solid $secondary;
+    &:hover {
+        background-color: $secondary;
+        color: $light;
+    }
+}
+.btn {
+    margin: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
 }

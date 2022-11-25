@@ -1,0 +1,19 @@
+.home-boxes {
+  h2 {
+    text-align: center;
+  }
+}
+
+.container-box {
+  border: 1px solid $primary;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  min-width: 300px;
+  box-shadow: 8px 8px 11px 0px rgba($color: $primary, $alpha: .3);
+
+  .box-icon {
+    font-size: 5rem;
+  }
+}
