@@ -1,10 +1,30 @@
 .footer-container {
   background-color: $primary;
-  padding: 50px 15%;
   width: 100%;
+  position: relative;
+  .custom-shape-divider-top-1669425254 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1669425254 svg {
+      position: relative;
+      display: block;
+      width: calc(127% + 1.3px);
+      height: 75px;
+  }
+
+  .custom-shape-divider-top-1669425254 .shape-fill {
+      fill: #FFFFFF;
+  }
   
   .flex-fluid {
     justify-content: space-around;
+    padding: 80px 15% 50PX;
   }
 
   .footer-item {

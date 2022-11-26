@@ -1,11 +1,11 @@
 .navbar {
-    background-color: $light;
-    height: 60px;
+    background-color: $primary;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    // position: sticky;
     top: 0;
     z-index: 20;
     border-bottom: 1px solid $primary;
@@ -31,7 +31,7 @@
     font-size: 2rem;
     flex-grow: 1;
     img {
-      width: 40px;
+      width: 70px;
     }
   }
   
@@ -43,7 +43,7 @@
   }
   
   .nav-links {
-    color: $third;
+    color: $light;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
@@ -70,11 +70,11 @@
   
   .nav-item:hover:after {
     width: 100%;
-    background: $primary;
+    background: $secondary;
   }
   
   .nav-item .active {
-    color: $primary;
+    color: $secondary;
     // border: 1px solid $third;
   }
   

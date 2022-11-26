@@ -1,12 +1,13 @@
 .home-process {
   h2 {
     text-align: center;
+    color: $secondary;
   }
 }
 
 .container-process {
   
-  margin: 15px;
+  margin: 0 15px;
   text-align: center;
   min-width: 300px;
   &.w-30 {
@@ -17,6 +18,7 @@
   .procces-number {
     p{
       font-size: 15rem;
+      line-height: 15rem;
       padding: 15px;
       color: $secondary;
     }
@@ -27,5 +29,8 @@
     padding: 30px;
     border: 1px solid $primary;
     box-shadow: 8px 8px 11px 0px rgba($color: $primary, $alpha: .3);
+    position: relative;
+    top: -70px;
+    z-index: -1;
   }
 }

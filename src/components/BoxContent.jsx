@@ -1,16 +1,14 @@
-import { SiMaterialdesignicons } from 'react-icons/si'
-
-const BoxContent = () => {
+const BoxContent = ({ title, description, icon }) => {
   return (
     <div className='container-box w-30'>
       <div className='box-icon'>
-        <SiMaterialdesignicons />
+        {icon}
       </div>
       <div className='box-title'>
-        <h3>Diseño</h3>
+        <h3>{title}</h3>
       </div>
       <div className='box-text'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maxime saepe.</p>
+        <p>{description}</p>
       </div>
     </div>
   )

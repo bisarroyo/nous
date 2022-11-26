@@ -1,6 +1,7 @@
 .testimonials-container {
   h2 {
     text-align: center;
+    color: $primary;
   }
   .swiper {
     width: 100%;
@@ -25,6 +26,13 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+
+    .textimonial-text {
+      padding: 15px;
+      p {
+        color: $primary ;
+      }
+    }
   }
   
   .swiper-slide img {

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { BiMenuAltRight } from 'react-icons/bi'
 import { IoIosCloseCircleOutline } from 'react-icons/io'
-import logo from '../assets/nous_logo.png'
+import logo from '../assets/nous_logo_white.png'
 
 export const NavBar = () => {
   const [click, setClick] = useState(false)

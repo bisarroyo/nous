@@ -12,15 +12,14 @@ const Testimonials = () => {
     <div className='testimonials-container container'>
       <h2>Testimonios de nuestros Clientes</h2>
       <Swiper navigation modules={[Navigation]} className='mySwiper'>
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>
+          <div className='textimonial-text'>
+            <p>Son muy profesionales en el servicio, el trato y velocidad de entrega fue muy rápido.</p>
+            <br />
+            <p><i>- Bismark</i></p>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
     </div>
   )
