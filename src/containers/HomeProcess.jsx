@@ -2,7 +2,7 @@ import BoxProcess from '../components/BoxProcess'
 
 const HomeProcess = () => {
   return (
-    <div className='container home-process'>
+    <div className='home-process'>
       <h2>Nuestro proceso</h2>
       <div className='flex-fluid'>
         <BoxProcess

@@ -25,13 +25,16 @@
     }
   }
 }
+// how to use media queries
+
+// @include respond(md){
+//   ...
+// }
 
 // titles size
 @each $name, $size in $titles {
   #{$name} {
-    @if $name == h2 {
-      padding-bottom: 30px;
-    }
+    margin-bottom: $size;
     font-size: $size;
     line-height: $size;
   }
@@ -48,8 +51,10 @@
 // width sizing
 @each $name, $size in $sizing {
   .#{$name} {
-    width: $size;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%;
+    padding: 30px;
+    @include respond(lg){
+      width: $size;
+    }
   }
 };

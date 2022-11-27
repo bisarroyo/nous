@@ -12,18 +12,7 @@ html {
 
 body {
     box-sizing: border-box;
-    // background-color: $primary;
-    // color: $light;
 }
-
-// body::-webkit-scrollbar {
-// 	width: 10px;
-// }
-
-// body::-webkit-scrollbar-thumb {
-// 	background: $primary;
-// 	border-radius: 5px;
-// }
 
 
 %flex {
@@ -47,26 +36,17 @@ body {
 
 .flex-fluid {
     @extend %flex;
-    @include respond(md){
+    @include respond(lg){
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
     }
-    @include respond(lg){
+    @include respond(xl){
         justify-content: center;
     }
 }
 
-//spacing
-
-.container {
-    margin: 100px 15%;
-}
-
-.container-fluid {
-    margin: 50px 1%;
-}
 
 // colors
 

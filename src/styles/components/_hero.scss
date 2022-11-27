@@ -1,24 +1,10 @@
 .hero {
+  margin-top: 100px;;
   position: relative;
   padding-top: 1px;
-  .custom-shape-divider-top-1669423948 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-  }
-
-  .custom-shape-divider-top-1669423948 svg {
-      position: relative;
-      display: block;
-      width: calc(121% + 1.3px);
-      height: 99px;
-  }
-
-  .custom-shape-divider-top-1669423948 .shape-fill {
-      fill: #27187E;
+  h1 {
+    text-align: center;
+    color: $primary;
   }
   .hero-text{
     .hero-button {
@@ -27,7 +13,8 @@
   }
   .hero-image{
     @extend %flex;
-    font-size: 400px;
-    color: $secondary;
+    img {
+      max-width: 400px;
+    }
   }
 }

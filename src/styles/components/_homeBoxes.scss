@@ -1,0 +1,60 @@
+.home-boxes {
+  margin-top: 150px;
+  padding: 50px 0;
+  background-color: $secondary;
+  position: relative;
+
+  .custom-shape-divider-top-1669514126 {
+    position: absolute;
+    top: -93px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-top-1669514127 {
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+
+  .custom-shape-divider-top-1669514126 svg,
+  .custom-shape-divider-top-1669514127 svg {
+      position: relative;
+      display: block;
+      width: calc(137% + 1.3px);
+      height: 93px;
+  }
+
+  .custom-shape-divider-top-1669514126 .shape-fill,
+  .custom-shape-divider-top-1669514127 .shape-fill {
+      fill: #FF8600;
+  }
+
+  h2 {
+    text-align: center;
+    color: $light;
+  }
+}
+
+.container-box {
+  border: 1px solid $primary;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  min-width: 300px;
+  box-shadow: 8px 8px 11px 0px rgba($color: $primary, $alpha: .3);
+  background-color: $light;
+
+  .box-icon {
+    font-size: 5rem;
+    color: $secondary;
+  }
+}
