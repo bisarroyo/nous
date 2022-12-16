@@ -1,5 +1,6 @@
 .home-info {
 
+  padding: 0 20px;;
   margin-top: 150px;
   .hero-text{
     .hero-button {
@@ -10,7 +11,8 @@
     @extend %flex;
     
     img {
-      max-width: 400px;;
+      max-width: 400px;
+      width: 100%;
     }
   }
 }

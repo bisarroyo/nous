@@ -4,7 +4,7 @@ import homeResponsive from '../assets/home-responsive.png'
 const Hero = () => {
   return (
     <div className='hero'>
-      <h1>Somo Nous</h1>
+      <h1>Somos Nous</h1>
       <div className='flex-fluid'>
         <div className='hero-text w-40'>
           <h2 className='primary'>Diseño web a tu medida</h2>

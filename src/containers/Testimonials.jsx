@@ -11,7 +11,7 @@ const Testimonials = () => {
   return (
     <div className='testimonials-container container'>
       <h2>Testimonios de nuestros Clientes</h2>
-      <Swiper navigation modules={[Navigation]} className='mySwiper'>
+      <Swiper loop modules={[Navigation]}>
         <SwiperSlide>
           <div className='textimonial-text'>
             <p>Son muy profesionales en el servicio, el trato y velocidad de entrega fue muy rápido.</p>

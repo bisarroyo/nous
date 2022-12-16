@@ -1,12 +1,12 @@
 .home-boxes {
   margin-top: 150px;
-  padding: 50px 0;
+  padding: 85px 20px;
   background-color: $secondary;
   position: relative;
 
   .custom-shape-divider-top-1669514126 {
     position: absolute;
-    top: -93px;
+    top: -92px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -16,7 +16,7 @@
 
   .custom-shape-divider-top-1669514127 {
     position: absolute;
-    bottom: -93px;
+    bottom: -92px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -51,7 +51,12 @@
   text-align: center;
   min-width: 300px;
   box-shadow: 8px 8px 11px 0px rgba($color: $primary, $alpha: .3);
-  background-color: $light;
+  background: rgba(255, 255, 255, 0.42);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 
   .box-icon {
     font-size: 5rem;

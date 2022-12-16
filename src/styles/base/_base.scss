@@ -38,7 +38,7 @@ body {
     @extend %flex;
     @include respond(lg){
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
