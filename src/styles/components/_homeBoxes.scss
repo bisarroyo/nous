@@ -43,23 +43,76 @@
   }
 }
 
+%background-before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: $light;
+  top: 0;
+  left: 0;
+  border-radius: 25% 35% 45% 30%;
+}
+
+.bg {
+  margin: 10px;
+  min-width: 300px;
+  position: relative;
+  padding: 0;
+  &:before {
+    @extend %background-before;
+    animation: moving linear 7s infinite;
+  }
+  &.bg-1:before {
+    top: 50%;
+    left: 60%;
+  }
+  &.bg-2:before {
+    top: 50%;
+    left: 60%;
+  }
+  &.bg-3:before {
+    top: 25%;
+    left: 80%;
+  }
+}
+
+@keyframes moving {
+  0% {
+    border-radius: 25% 35% 45% 30%;
+  }
+  25% {
+    border-radius: 40% 25% 50% 20%;
+  }
+  50% {
+    border-radius: 55% 45% 20% 10%;
+  }
+  75% {
+    border-radius: 30% 55% 35% 20%;
+  }
+  100% {
+    border-radius: 25% 35% 45% 30%;
+  }
+}
+
 .container-box {
   border: 1px solid $primary;
-  margin: 10px;
   border-radius: 8px;
-  padding: 30px;
   text-align: center;
+  padding: 30px;
   min-width: 300px;
-  box-shadow: 8px 8px 11px 0px rgba($color: $primary, $alpha: .3);
-  background: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.9px);
   -webkit-backdrop-filter: blur(5.9px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+
+  
 
   .box-icon {
     font-size: 5rem;
-    color: $secondary;
+    color: $light;
   }
 }
