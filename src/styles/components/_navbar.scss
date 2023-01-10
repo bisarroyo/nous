@@ -1,35 +1,36 @@
 .navbar {
-  background-color: $primary;
-  height: 120px;
+  backdrop-filter: blur(16px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  // position: sticky;
-  position: relative;
+  position: sticky;
   top: 0;
   z-index: 20;
-  border-bottom: 1px solid $primary;
+  border-bottom: 1px solid rgba($color: $primary, $alpha: 0.2);
 
-  .custom-shape-divider-top-1669423948 {
-    position: absolute;
-    bottom: -99px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-  }
+  // .custom-shape-divider-top-1669423948 {
+  //   position: absolute;
+  //   bottom: -99px;
+  //   left: 0;
+  //   width: 100%;
+  //   overflow: hidden;
+  //   line-height: 0;
+  // }
 
-  .custom-shape-divider-top-1669423948 svg {
-      position: relative;
-      display: block;
-      width: calc(121% + 1.3px);
-      height: 99px;
-  }
+  // .custom-shape-divider-top-1669423948 svg {
+  //     position: relative;
+  //     display: block;
+  //     width: calc(121% + 1.3px);
+  //     height: 99px;
+  // }
 
-  .custom-shape-divider-top-1669423948 .shape-fill {
-      fill: #27187E;
-  }
+  // .custom-shape-divider-top-1669423948 .shape-fill {
+  //     fill: #27187E;
+  // }
 }
   
 .nav-container {
@@ -45,14 +46,15 @@
 
 .nav-logo {
   color: $third;
+  display: flex;
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   flex-grow: 1;
   img {
-    width: 70px;
+    width: 35px;
   }
 }
 
@@ -64,7 +66,7 @@
 }
 
 .nav-links {
-  color: $light;
+  color: $primary;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
@@ -110,7 +112,7 @@
     width: 100%;
     border-top: 1px solid $light;
     position: absolute;
-    top: 105px !important;
+    top: 58px !important;
     left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -137,11 +139,11 @@
   .nav-icon {
     display: block;
     position: absolute;
-    top: 5px;
+    top: -35px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 4rem;
     cursor: pointer;
-    color: $light;
+    color: $primary;
   }
 }
