@@ -12,7 +12,7 @@ const HomeBoxes = () => {
         </svg>
       </div>
       {/* Divider curve */}
-      <h2>Ofrecemos</h2>
+      <h2>Ofrecemos:</h2>
       <div className='flex-fluid'>
         <BoxContent
           bg='bg-1'
