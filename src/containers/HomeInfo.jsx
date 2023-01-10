@@ -12,7 +12,7 @@ const HomeInfo = () => {
         <p className='primary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum modi soluta sequi. Perferendis iure laboriosam nostrum, labore sit fuga in nesciunt ullam, saepe, optio obcaecati a beatae rem alias.</p>
         <div className='hero-button'>
           <a href='' className='btn-primary'>Servicios</a>
-          <a href='' className='btn-secondary'>Comenzar</a>
+          <a href='' className='btn-secondary'>Comenzar!</a>
         </div>
       </div>
     </div>
